@@ -14,3 +14,22 @@ sudo dkms install -m rtl8814au -v 4.3.21
 ````
 
 This should keep your TPLink adapter working post kernel updates.
+
+
+## n3dst4 fork
+
+Forking this to add some notes...
+
+* Updating Ubuntu caused this module to stop working, which is an ass.
+* Repeating the instructions above lead to messages that the module was already built/installed
+* `sudo modprobe 8814au` -> something about exec format errors?
+* `dmesg|grep 8814` -> errors about kernel magic being wrong??
+
+Things I did that may have fixed it:
+
+* `make clean`
+* `make`
+* `sudo dkms remove rtl8814au/4.3.21 --all`
+* `sudo dkms build -m rtl8814au -v 4.3.21`
+* `sudo dkms install -m rtl8814au -v 4.3.21`
+
