@@ -33,3 +33,6 @@ Things I did that may have fixed it:
 * `sudo dkms build -m rtl8814au -v 4.3.21`
 * `sudo dkms install -m rtl8814au -v 4.3.21`
 
+### Update 1
+
+* And reboot (there may be a better way to kickstart it but reboot definitely works).
