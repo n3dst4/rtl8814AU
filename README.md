@@ -36,3 +36,13 @@ Things I did that may have fixed it:
 ### Update 1
 
 * And reboot (there may be a better way to kickstart it but reboot definitely works).
+
+
+### Update 2
+
+By experimentation, I've established that having done the `make` steps above once, it's sufficient to just do:
+
+* `sudo dkms remove rtl8814au/4.3.21 --all`
+* `sudo dkms install -m rtl8814au -v 4.3.21`
+
+to re-establish the driver if it gets clunked by updates.
