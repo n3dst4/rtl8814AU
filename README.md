@@ -1,9 +1,13 @@
 # rtl8814AU
-Realtek 8814AU USB WiFi driver
+Realtek 8814AU USB WiFi driver.
 
-Forked off of tprichers fork, which works for newer kernels (tested on 4.13.x, Ubuntu 17.10, TPLINK Archer T9UH)
+Forked from [Diederik de Haas](https://github.com/diederikdehaas/rtl8814AU)'
+repository which is based on version 4.3.21 of an Edimax driver for the
+EW-7833UAC device.
 
-Added DKMS support
+Updated with support for kernels >= 4.14.
+
+# DKMS support
 
 From your src dir
 
@@ -13,7 +17,7 @@ sudo dkms build -m rtl8814au -v 4.3.21
 sudo dkms install -m rtl8814au -v 4.3.21
 ````
 
-This should keep your TPLink adapter working post kernel updates.
+This should keep your 8814AU adapter working post kernel updates.
 
 
 ## n3dst4 fork
