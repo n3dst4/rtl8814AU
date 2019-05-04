@@ -2,3 +2,11 @@
 Sun 10 Mar 10:00:17 GMT 2019
 Running rtl8814AU/kick_me.sh for kernel version:
 Linux rlyeh 4.18.0-16-generic #17-Ubuntu SMP Fri Feb 8 00:06:57 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+
+Mon 15 Apr 09:01:01 BST 2019
+Running rtl8814AU/kick_me.sh for kernel version:
+Linux rlyeh 4.18.0-17-generic #18-Ubuntu SMP Wed Mar 13 14:34:40 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+
+Sat  4 May 12:11:08 BST 2019
+Running rtl8814AU/kick_me.sh for kernel version:
+Linux rlyeh 4.18.0-18-generic #19-Ubuntu SMP Tue Apr 2 18:13:16 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
